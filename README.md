@@ -60,3 +60,7 @@ curl --location --request POST 'http://127.0.0.1:8000/v1/chat/completions' \
 # 感谢
 感谢[lixiaoxiangzhi](https://github.com/lixiaoxiangzhi) 帮助解决流式异步编程问题 <br />
 感谢[ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B/blob/main/openai_api.py) 提供原始兼容openai-api的封装思路 <br />
+
+# 交流群
+![c9cd6805ed88d3f6648faaead9a0d23](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/6d545d30-1dab-47c6-8611-f351ef8134bf)
+
