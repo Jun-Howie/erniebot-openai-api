@@ -1,6 +1,20 @@
 # erniebot-openai-api
 erniebot兼容openai的API调用方式，支持流式，非流式调用 ，支持system提示词
 
+# 快速使用
+
+```bash
+conda create -n enbot python=3.10.6
+
+git clone https://github.com/Jun-Howie/erniebot-openai-api.git
+
+pip install -r requirements.txt -i https://mirror.baidu.com/pypi/simple
+
+python erniebot-openai-api.py
+
+```
+
+
 
 # 调用测试
 curl --location --request POST 'http://127.0.0.1:8000/v1/chat/completions' \
