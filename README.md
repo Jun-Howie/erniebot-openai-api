@@ -4,6 +4,7 @@ erniebot兼容openai的API调用方式，支持流式，非流式调用 ，支�
 # 快速使用
 
 ```bash
+
 conda create -n enbot python=3.10.6
 
 git clone https://github.com/Jun-Howie/erniebot-openai-api.git
@@ -48,8 +49,8 @@ curl --location --request POST 'http://127.0.0.1:8000/v1/chat/completions' \
 }
 # 使用飞桨平台调用ernie-4.0 / PS:toknes 比千帆便宜
 
-[飞桨ai studio星河社区](https://aistudio.baidu.com/)
-[ERNIE Bot文档](https://ernie-bot-agent.readthedocs.io/zh-cn/latest/sdk/)
+[飞桨ai studio星河社区](https://aistudio.baidu.com/) <br />
+[ERNIE Bot文档](https://ernie-bot-agent.readthedocs.io/zh-cn/latest/sdk/) <br />
 
 ![ecb42ea46201c1db58957b195364e08](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/68b134f1-101a-4e94-8043-809431988e40)
 ![cd8dd2724b821c3004e51a1facb0b66](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/9c489a0c-2c7f-4045-bc3e-7c35c4cc2721)
@@ -57,5 +58,5 @@ curl --location --request POST 'http://127.0.0.1:8000/v1/chat/completions' \
 ![image](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/b4f1957b-6dd3-4ac6-983f-b31eb088b9e0)
 
 # 感谢
-感谢[lixiaoxiangzhi](https://github.com/lixiaoxiangzhi) 帮助解决流式异步编程问题
-感谢[ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B/blob/main/openai_api.py) 提供原始兼容openai-api的封装思路
+感谢[lixiaoxiangzhi](https://github.com/lixiaoxiangzhi) 帮助解决流式异步编程问题 <br />
+感谢[ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B/blob/main/openai_api.py) 提供原始兼容openai-api的封装思路 <br />
