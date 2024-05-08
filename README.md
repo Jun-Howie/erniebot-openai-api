@@ -39,5 +39,5 @@ curl --location --request POST 'http://127.0.0.1:8000/v1/chat/completions' \
 ![image](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/b4f1957b-6dd3-4ac6-983f-b31eb088b9e0)
 
 # 感谢
-感谢[lixiaoxiangzhi] (https://github.com/lixiaoxiangzhi) 帮助解决流式异步编程问题
+感谢[lixiaoxiangzhi](https://github.com/lixiaoxiangzhi) 帮助解决流式异步编程问题
 感谢[ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B/blob/main/openai_api.py) 提供原始兼容openai-api的封装思路
