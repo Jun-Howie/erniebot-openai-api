@@ -1,6 +1,7 @@
 # erniebot-openai-api
 erniebot兼容openai的API调用方式，支持流式，非流式调用 ，支持system提示词
 
+
 # 调用测试
 curl --location --request POST 'http://127.0.0.1:8000/v1/chat/completions' \
 --header 'Content-Type: application/json' \
@@ -31,3 +32,11 @@ curl --location --request POST 'http://127.0.0.1:8000/v1/chat/completions' \
     ],
     "created": 1715152014
 }
+# 使用飞桨平台调用ernie-4.0 / PS:toknes 比千帆便宜
+![ecb42ea46201c1db58957b195364e08](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/68b134f1-101a-4e94-8043-809431988e40)
+![cd8dd2724b821c3004e51a1facb0b66](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/9c489a0c-2c7f-4045-bc3e-7c35c4cc2721)
+
+![image](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/b4f1957b-6dd3-4ac6-983f-b31eb088b9e0)
+
+# 感谢
+感谢@lixiaoxiangzhi
