@@ -15,6 +15,14 @@ python erniebot-openai-api.py
 
 ```
 
+# docker
+
+```bash
+# 替换YOU_ACCESS_TOKEN
+docker run -e EB_AGENT_ACCESS_TOKEN=YOU_ACCESS_TOKEN -e EB_AGENT_LOGGING_LEVEL=info -p 8000:8000 amberyu/enbot
+
+```
+
 
 
 # 调用测试
@@ -51,8 +59,6 @@ curl --location --request POST 'http://127.0.0.1:8000/v1/chat/completions' \
 
 [飞桨ai studio星河社区](https://aistudio.baidu.com/) <br />
 [ERNIE Bot文档](https://ernie-bot-agent.readthedocs.io/zh-cn/latest/sdk/) <br />
-
-![ecb42ea46201c1db58957b195364e08](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/68b134f1-101a-4e94-8043-809431988e40)
 ![cd8dd2724b821c3004e51a1facb0b66](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/9c489a0c-2c7f-4045-bc3e-7c35c4cc2721)
 
 ![image](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/b4f1957b-6dd3-4ac6-983f-b31eb088b9e0)
@@ -62,5 +68,6 @@ curl --location --request POST 'http://127.0.0.1:8000/v1/chat/completions' \
 感谢[ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B/blob/main/openai_api.py) 提供原始兼容openai-api的封装思路 <br />
 
 # 交流群
-![c9cd6805ed88d3f6648faaead9a0d23](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/6d545d30-1dab-47c6-8611-f351ef8134bf)
+![d4879b13f4dad46e1cbfc5f687a70e7](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/5cc3bfc9-871a-4776-94b2-df64a327c15f)
+
 
