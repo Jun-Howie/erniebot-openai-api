@@ -68,6 +68,7 @@ curl --location --request POST 'http://127.0.0.1:8000/v1/chat/completions' \
 感谢[ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B/blob/main/openai_api.py) 提供原始兼容openai-api的封装思路 <br />
 
 # 交流群
-![d4879b13f4dad46e1cbfc5f687a70e7](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/5cc3bfc9-871a-4776-94b2-df64a327c15f)
+![afb48c0307267b3e19e89b580947fb1](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/a54bf5e6-2f1b-4d8d-a19e-46d26275a9d4)
+
 
 
