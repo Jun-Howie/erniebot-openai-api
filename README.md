@@ -9,7 +9,9 @@ conda create -n enbot python=3.10.6
 
 git clone https://github.com/Jun-Howie/erniebot-openai-api.git
 
-pip install -r requirements.txt -i https://mirror.baidu.com/pypi/simple
+cd erniebot-openai-api
+
+pip install -r requirements.txt
 
 python erniebot-openai-api.py
 
