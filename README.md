@@ -21,6 +21,10 @@ python erniebot-openai-api.py
 # 替换YOU_ACCESS_TOKEN
 docker run -e EB_AGENT_ACCESS_TOKEN=YOU_ACCESS_TOKEN -e EB_AGENT_LOGGING_LEVEL=info -p 8000:8000 amberyu/enbot
 
+
+阿里云镜像
+docker run -d -e EB_AGENT_ACCESS_TOKEN=YOU_ACCESS_TOKEN -e EB_AGENT_LOGGING_LEVEL=info -p 8000:8000 registry.cn-shanghai.aliyuncs.com/chatpet/enbot
+
 ```
 
 
@@ -68,7 +72,8 @@ curl --location --request POST 'http://127.0.0.1:8000/v1/chat/completions' \
 感谢[ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B/blob/main/openai_api.py) 提供原始兼容openai-api的封装思路 <br />
 
 # 交流群
-![17f2c5c13d065e8e0c8fcb715f833fb](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/64a5505f-a823-40fc-b467-2146a89638e2)
+![微信图片_20240620104729](https://github.com/Jun-Howie/erniebot-openai-api/assets/62869005/e7c30b79-249e-48cc-9d37-e902ff7a09ca)
+
 
 
 
