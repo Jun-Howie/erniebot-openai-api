@@ -73,8 +73,6 @@ curl --location --request POST 'http://127.0.0.1:8000/v1/chat/completions' \
 感谢[lixiaoxiangzhi](https://github.com/lixiaoxiangzhi) 帮助解决流式异步编程问题 <br />
 感谢[ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B/blob/main/openai_api.py) 提供原始兼容openai-api的封装思路 <br />
 
-# 交流群
-![79373fb2339bdda5d97e128e19295fe](https://github.com/user-attachments/assets/32ada36d-bd14-47f6-b233-689603a70ab6)
 
 
 
